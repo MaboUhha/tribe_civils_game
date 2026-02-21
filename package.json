@@ -1,0 +1,23 @@
+{
+  "name": "tribe-civils-game",
+  "version": "0.1.0",
+  "description": "Глубокая древность: симулятор племён в духе Dwarf Fortress × WorldBox × Civilization",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .ts"
+  },
+  "dependencies": {
+    "idb": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0",
+    "vite": "^6.0.0",
+    "vite-plugin-pwa": "^0.21.0",
+    "workbox-window": "^7.3.0"
+  }
+}
